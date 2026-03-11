@@ -13,4 +13,4 @@ console.log(null >= 0);
 console.log(null <= 0);
 console.log(null == 0);
 console.log(null != 0);
-console.log(null === 0);
+console.log(null === 0); // (Strict checks the datatype and does not allow conversion while comparison)
