@@ -55,4 +55,5 @@ const myfunc= function(){
 // are 'object'.
 console.log(typeof(mycars));
 console.log(typeof(details));
-console.log(typeof(myfunc));
+console.log(typeof(myfunc)); //object funtion
+
