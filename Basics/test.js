@@ -1,1 +1,7 @@
-console.log('Muddasir Abidi, here.');
+// concatenation
+
+let name= 'Muddasir'
+const lname= ' Abidi'
+
+console.log(name + lname);
+
