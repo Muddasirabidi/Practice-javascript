@@ -57,3 +57,45 @@ console.log(typeof(mycars));
 console.log(typeof(details));
 console.log(typeof(myfunc)); //object funtion
 
+
+
+// Primitive Datatype stores memory in Stack and share the copy of the 
+// refered variable. Changes made to any copy has no effect on the original 
+// value.
+
+myid="my@gnail.com"
+anotherid=myid
+
+console.log(myid)
+console.log(anotherid); 
+
+
+anotherid="hello@gnail.com"
+
+console.log(anotherid); 
+console.log(myid) // no changes seen
+
+
+
+
+// Non-Primitive Datatype stores memory in Heap and when a variable of such datatype
+// is refered, it does not shares the copy instead it shares the reference of the original value. 
+// So when changes are made here, the original value is also changed.
+
+let user1={
+    name:"James",
+    age:22
+}
+
+anotheruser= user1
+
+console.log(user1);
+console.log(anotheruser);
+
+anotheruser.name= "Michael" //changes made to the 2nd variable 
+anotheruser.age= 24        // has an effect on the original variable as well
+
+console.log(user1) 
+console.log(anotheruser);
+
+
