@@ -54,4 +54,19 @@ console.log("3rd");
 // It will throw an undefined error if the value is not returned in the function!
 console.log("Output of saymyname function is:", o);
 
+function Caluclatecartprice(...num1){
+    return(num1)
+}
 
+a=Caluclatecartprice(2,4,5)
+console.log(a);
+
+const user={
+    name:'muddasir',
+    age:22
+}
+// Handling object's keys inside a function after assigning an object as a parameter.
+function objecthandler(object){
+    console.log(`This employee, ${object.name}, is currently working tremendously well at just ${object.age} age.\nMany congratulations to him!!`);
+}
+objecthandler(user)
